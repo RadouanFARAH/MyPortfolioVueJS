@@ -141,7 +141,7 @@
   left: 50%;
   transform: translate(-50%);
   font-family:comfortaa;
-  font-size: 18px;
+  font-size: 20px;
 
   
 
@@ -176,7 +176,7 @@
  }
 
   .input p{
-    font-size: 10px;
+    font-size: 20px;
     color: #ff4d5a;
     margin-top: 8px;
   
@@ -218,7 +218,7 @@
     cursor: pointer;
     margin-left: 50%;
     transform: translate(-50%); 
-    font-size: 12px;
+    font-size: 20px;
     
   }
 

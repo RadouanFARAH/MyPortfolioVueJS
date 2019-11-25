@@ -5,12 +5,12 @@
                  <div class="skills-header fadeInDown animated">
                       
                          <button :class="{'active-btn': (chart==1)}" @click="chart=1">
-                           <i class="fas fa-code" style="font-size: 18px;"></i>
-                           <p style="font-size: 10px; font-family:comfortaa;">CODING</p>
+                           <i class="fas fa-code" style="font-size: 23px;"></i>
+                           <p style="font-size: 15px; font-family:comfortaa;">CODING</p>
                          </button>
                          <button :class="{'active-btn': (chart==2)}" @click="chart=2">
-                         <i class="far fa-object-group" style="font-size: 18px;"></i>
-                         <p style="font-size: 10px;font-family:comfortaa;">GRAPHICS</p>
+                         <i class="far fa-object-group" style="font-size: 23px;"></i>
+                         <p style="font-size: 15px;font-family:comfortaa;">GRAPHICS</p>
                          </button>
                 </div>
 
@@ -167,8 +167,8 @@ Chart.defaults.global.defaultStrokeColor = 'black';
 
 .skills-content{  
   position: absolute;
-  top: 56%;
-  left: 50%;
+  top: 60%;
+  left: 45%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-family:comfortaa;

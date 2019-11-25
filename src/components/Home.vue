@@ -28,7 +28,7 @@
  .text-box {
   position: absolute;
   top: 45%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   text-align: center; }
 
@@ -44,8 +44,7 @@
 
 .heading-primary-sub {
   display: block;
-  font-size: 16.5px;
-  
+  font-size: 25px;
   font-family: Arial;
   margin-top: 10px;
   animation-name: moveInright;

@@ -9,12 +9,12 @@
 			<div class="header">
 			  <div class="fadeInDown animated">	
 				<button :class="{'active-btn': (projects==1)}" @click="projects=1">
-					<i class="fas fa-desktop" style="font-size: 18px;"></i>
-                    <p style="font-size: 10px; font-family:comfortaa;">WEB</p>
+					<i class="fas fa-desktop" style="font-size: 23px;"></i>
+                    <p style="font-size: 15px; font-family:comfortaa;">WEB</p>
 				</button>
 				<button :class="{'active-btn': (projects==2)}" @click="projects=2">
-					<i class="fas fa-mobile" style="font-size: 18px;"></i>
-                    <p style="font-size: 10px;font-family:comfortaa;">MOBILE</p>
+					<i class="fas fa-mobile" style="font-size: 23px;"></i>
+                    <p style="font-size: 15px;font-family:comfortaa;">MOBILE</p>
 				</button>
 				
 			   </div>
@@ -80,7 +80,7 @@
 			<!-- MOBILE -->
 			<div class="container " v-if="projects==2">
 
-               <div  style="width : 600px; height: 300px" class="row">  
+               <div  style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" class="row">  
 
                 <!------------------------------------------------------------------------------------------------- -->
                    <dir  class=" zoomIn animated">
@@ -176,7 +176,8 @@
      
      text-align: center;
      margin-bottom: 20px;
-      box-shadow: 0 0 10px 2px #606060;
+    box-shadow: 0 0 10px 2px #606060;
+    background-color: #fff;
   
   img {
     width: 100%;

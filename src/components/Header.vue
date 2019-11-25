@@ -30,24 +30,27 @@
      
 
      #Header .logo {
-      margin-left: 1.5em;
-      margin-top: 0.6em;
+    
       float: left;
       height: 80px;
       border-radius: 50%;
+      border: black 2px dotted
       
      }
 
     
 
      #Header .items{
+       border: black 2px;
+       
+       padding: 1px;
       margin-top: 1.4em;
       float: right;
       margin-left: 15px;
       outline: none;
-      font-size: 12px;
+      font-size: 15px;
+      font-weight: 600;
       color:black;
-     
       text-decoration: none;
 
             &:hover {
